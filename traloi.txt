@@ -1,0 +1,7 @@
+4. Khi ứng dụng đang chạy và người dùng sử dụng nút back thì onPause, onStop và onDestroy được gọi
+khi mở lại ứng dụng thì onCreater, onStart và onResume được gọi.
+5. Khi ứng dụng đang chạy và người dùng sử dụng nút home thì onPause và onStop được gọi.
+Khi mở lại ứng dụng thì onRestart, onStart và onResume được gọi.
+6. Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái ban đầu của ứng dụng thì nó sẽ thực
+hiện phương thức onPause vì các phương thức được khởi tạo thì phương thức onPause sẽ phải đảm bảo được
+gọi đầu tiên khi ứng dụng bị hủy đột ngột.
